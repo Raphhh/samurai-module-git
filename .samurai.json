@@ -1,0 +1,10 @@
+{
+  "package": "raphhh/samurai-module-git",
+  "description": "Git module",
+  "dependencies": [
+
+  ],
+  "tasks": [
+    "Samurai\\Git\\GitTask"
+  ]
+}
