@@ -1,0 +1,35 @@
+{
+    "name": "raphhh/samurai-module-git",
+    "description": "Git module for Samurai",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Raphaël Lefebvre",
+            "email": "raphael@raphaellefebvre.be"
+        }
+    ],
+    "keywords": [
+        "samurai",
+        "git"
+    ],
+    "autoload": {
+        "psr-4": {
+            "": [
+                "src/",
+                "tests/"
+            ],
+            "Samurai\\Git\\": [
+                "src/",
+                "tests/"
+            ]
+        }
+    },
+    "require": {
+        "php": ">=5.4",
+        "kzykhys/git": "0.1.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "@stable"
+    }
+}
