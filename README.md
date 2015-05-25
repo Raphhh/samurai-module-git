@@ -10,3 +10,11 @@
 
 
 Git module for [Samurai](https://github.com/Raphhh/samurai).
+
+Initialize Git in your project.
+
+## Installation
+
+```console
+$ samurai module install git raphhh/samurai-module-git
+```
