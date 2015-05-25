@@ -15,10 +15,6 @@
     ],
     "autoload": {
         "psr-4": {
-            "": [
-                "src/",
-                "tests/"
-            ],
             "Samurai\\Git\\": [
                 "src/",
                 "tests/"
@@ -28,7 +24,6 @@
     "require": {
         "php": ">=5.4",
         "kzykhys/git": "0.1.*",
-        "raphhh/trex-cli": "@dev",
         "raphhh/samurai": "@dev"
     },
     "require-dev": {
